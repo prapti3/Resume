@@ -26,7 +26,12 @@ Interested in contributing to this project? We welcome contributions from the co
 
 Thank you for visiting the Project Name webpage. If you have any questions, feedback, or suggestions, please [contact us](https://resume-ddd80.web.app/).
 
+## Lets Connect 
 
+- [Linkdin](https://www.linkedin.com/in/prapti-chavan-003/)
+- [GitHub](https://github.com/prapti3)
+- [Gmail](prapti.chavan3@gmail.com)
+  
 
 
 
