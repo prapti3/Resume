@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Nunito:wght@300&display=swap');
+/* font-family: 'Libre Baskerville', serif;
+font-family: 'Nunito', sans-serif; */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #fbebdc;
+}
+
+
+
+.head-element>img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    border-radius: 50%;
+    box-shadow: 2px 2px 13px;
+    align-items: center;
+    width: 20%;
+    padding: 5px;
+    transition: .5s ease-in-out;
+}
+.head-element>img:hover{
+   padding: 10px;
+}
+
+.head-element>h1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    text-align: center;
+    color: #41B3A3;
+    font-family: 'Libre Baskerville', serif;
+
+}
+
+.head-element>p {
+    font-size: 20px;
+    text-align: center;
+    color: #aa4b0b;
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width:650px) {
+    .head-element>img {
+        width: 40%;
+        height: 50%;
+    }
+
+    .head-element>h1 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .head-element>p {
+        font-size: 17px;
+        font-weight: 500;
+    }
+
+}
+
+.about {
+    padding-top: 25px;
+    background-color: rgb(255, 212, 172);
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.about h2 {
+
+    text-align: center;
+    
+    font-size: 30px;
+    color: #eb8643;
+    font-weight: bold;
+
+}
+
+.about p {
+    text-align: center;
+    font-size: 18px;
+}
+
+
+
+@media screen and (max-width:450px) {
+    .about h2 {
+        font-size: 18px;
+    }
+
+    .about p {
+        font-size: 13px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+}
+
+/* education section */
+.edu-section {
+    text-align: center;
+}
+
+.edu-head h2 {
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: 600;
+    color: #41B3A3;
+}
+
+.edu-body {
+    padding: 15px;
+}
+
+.edu-section p {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+@media screen and (max-width:450px) {
+    .edu-head h2 {
+        font-size: 18px;
+    }
+
+    .edu-body h4 {
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .edu-body p {
+        font-size: 14px;
+    }
+}
+
+/* work section */
+
+.work-section {
+    text-align: center;
+    background-color: rgb(255, 212, 172);
+
+}
+
+.work-section h2 {
+    padding: 20px;
+    font-size: 30px;
+    font-weight: 600;
+    color: #eb8643;
+}
+
+.work-body h4 {
+    font-weight: 600;
+}
+
+.work-body h5 {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.work-body>p {
+    font-size: 20px;
+    padding: 10px;
+    list-style-type: none;
+
+}
+
+@media screen and (max-width:650px) {
+
+    .work-body>p {
+        font-size: 16px;
+        text-align: center;
+        margin: 10px;
+    }
+}
+
+@media screen and (max-width:450px) {
+
+    .work-section>h2 {
+        font-size: 18px;
+    }
+
+    .work-body h4 {
+        font-size: 16px;
+    }
+
+    .work-body h5 {
+        font-size: 14px;
+    }
+
+    .work-body>p {
+        font-size: 12px;
+        text-align: center;
+        margin: 10px;
+    }
+}
+
+/* skills */
+
+/* .skills>img {
+    height: 20vh;
+    width: 20vw;
+} */
+
+/* achievements */
+
+.achive-section {
+    text-align: center;
+}
+
+.achive-section>h2 {
+    padding: 20px;
+    font-size: 30px;
+    font-weight: 600;
+    color: #eb8643;
+}
+
+.achive-body {
+    padding: 15px;
+}
+
+/* .achive-section p {
+    font-weight: 400;
+    font-size: 20px;
+} */
+
+.achive-body>p {
+    font-size: 20px;
+    padding: 10px;
+    list-style-type: none;
+}
+
+@media screen and (max-width:650px) {
+    .achive-section>h2 {
+        font-size: 20px;
+    }
+
+    .achive-body p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .achive-section>h2 {
+        font-size: 18px;
+    }
+
+    .achive-body p {
+        font-size: 13px;
+    }
+
+}
+
+/* footer */
+
+.footer {
+    background-color: #c38D9E;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+@media screen and (max-width:650px) {
+    .footer {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .footer {
+        font-size: 15px;
+    }
+}
