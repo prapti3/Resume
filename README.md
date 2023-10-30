@@ -12,10 +12,6 @@ Welcome to the Project Name webpage! This webpage showcases a [brief description
 - CSS3: Applied for styling and layout.
 - BootStrap: Styling Framework .
 
-## Demo
-
-Explore the live demo of the project to see it in action: https://resume-ddd80.web.app/
-
  ## Contributing
 
 Interested in contributing to this project? We welcome contributions from the community. Here's how you can get involved:
