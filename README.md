@@ -1,5 +1,5 @@
 
-Project 1/100: Resume WebPage
+Project: Resume WebPage
 
 ## Project Description
 
